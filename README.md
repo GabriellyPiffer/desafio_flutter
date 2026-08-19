@@ -1,4 +1,4 @@
-# 📱 Aula 02 - Situações Desafiadoras
+Situações Desafiadoras
 
 ## Flutter - Aplicativos Mobile
 
