@@ -42,11 +42,6 @@ Calorias = 0,7 × peso × distância
 flutter pub get
 flutter run
 
-## 📸 IMAGEM DO APLICATIVO
-
-![Telas do aplicativo](imagens/telas.jpg)
-=======
-
 Aplicativo desenvolvido em Flutter para registrar caminhadas e calcular o gasto calórico.
 
 ## 🎯 OBJETIVO
@@ -88,4 +83,8 @@ Calorias = 0,7 × peso × distância
 flutter pub get
 flutter run
 
->>>>>>> 8135ed4ab41731ea01fd3d695e658f9c212d7c5f
+´´´
+## 📸 IMAGEM DO APLICATIVO
+
+![Telas do aplicativo](imagens/telas.jpg)
+
