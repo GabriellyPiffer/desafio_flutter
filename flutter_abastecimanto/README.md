@@ -43,8 +43,11 @@ E calcular:
 ```bash
 flutter pub get
 flutter run
+<<<<<<< HEAD
 
 ```
 ## 📸 IMAGEM DO APLICATIVO
 
 ![Telas do aplicativo](imagens/telas.jpg)
+=======
+>>>>>>> 8135ed4ab41731ea01fd3d695e658f9c212d7c5f
