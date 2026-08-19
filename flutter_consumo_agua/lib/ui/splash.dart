@@ -18,11 +18,14 @@ class SplashScreen extends StatelessWidget {
           children: [
             const Icon(Icons.water_drop, size: 100, color: Colors.blue),
             const SizedBox(height: 20),
+
             const Text(
-              'Bebi Água',
+              'Consumo de Água Diário',
               style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
             ),
+
             const SizedBox(height: 40),
+
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -33,7 +36,9 @@ class SplashScreen extends StatelessWidget {
                 ),
               ],
             ),
+
             const SizedBox(height: 20),
+
             ElevatedButton(
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.blue,

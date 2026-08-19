@@ -62,7 +62,6 @@ class GraficoAbastecimentos extends StatelessWidget {
 
             isCurved: true,
 
-            // LINHA ROSA
             color: rosa,
 
             barWidth: 3,

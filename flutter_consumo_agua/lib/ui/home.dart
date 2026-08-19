@@ -16,7 +16,6 @@ class _HomeScreenState extends State<HomeScreen> {
   final TextEditingController quantidadeController = TextEditingController();
   final TextEditingController pesoController = TextEditingController();
 
-  // Azul escuro
   final Color azulEscuro = const Color(0xFF1565C0);
 
   void _abrirModal() {
@@ -52,7 +51,10 @@ class _HomeScreenState extends State<HomeScreen> {
     final isDark = Theme.of(context).brightness == Brightness.dark;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Bebi Água'), centerTitle: true),
+      appBar: AppBar(
+        title: const Text('Consumo de Água Diário'),
+        centerTitle: true,
+      ),
 
       body: registros.isEmpty
           ? Center(
@@ -78,7 +80,6 @@ class _HomeScreenState extends State<HomeScreen> {
                           LineChartBarData(
                             isCurved: true,
 
-                            // AZUL ESCURO
                             color: azulEscuro,
 
                             barWidth: 4,
@@ -98,8 +99,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
 
                   const SizedBox(height: 20),
-
-                  // Lista de registros
                   Text(
                     'Histórico',
                     style: Theme.of(context).textTheme.titleLarge,
@@ -117,7 +116,6 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
 
                       child: ListTile(
-                        // GOTINHA AZUL ESCURO
                         leading: Icon(Icons.water_drop, color: azulEscuro),
 
                         title: Text(
