@@ -41,8 +41,3 @@ Calorias = 0,7 × peso × distância
 flutter pub get
 flutter run
 
-## 📚 DESAFIO
-
-Aula 02 - Situações Desafiadoras
-
-Desafio 01 - Caminhadas x Calorias
